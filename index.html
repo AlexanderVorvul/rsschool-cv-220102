@@ -27,7 +27,8 @@
                     </td>                       
                     <td>
                         <figure>
-                            <img src="images/photo.jpg" alt="Photo">                                
+                            <img src="images/photo.jpg" alt="Photo">
+                            <figcaption>Photo of Alexander V.</figcaption>
                         </figure>    
                     </td>
                 </tr>
@@ -38,71 +39,85 @@
     <main class="centered-block">
         <section>
             <h2 class="section-header">Skills Summary</h2>
-            <hr>
-            <table> 
-                <tbody>   
-                    <tr>
-                        <td class="text-bold">Programming Languages:</td>
-                        <td>1C:Interprise platform language, Java, Assembler (x86), AutoLISP, C#, C/C++, LAD, FBD, STL, Object Pascal, Prolog, Visual Basic, SQL, T-SQL</td>            
-                    </tr>
-                    <tr>
-                        <td class="text-bold">Internet technologies:</td>
-                        <td>HTML, Java Applets, Java Server Faces (JSF), Java Server Pages (JSP), PHP Hypertext Pre-processor, XML/XLS/XSLT</td>
-                    </tr>
-                    <tr>
-                        <td class="text-bold">RDBMS</td>
-                        <td>MS SQL Server, MySQL, Oracle, Oracle Lite, MS Access</td>
-                    </tr>
-                    <tr>
-                        <td class="text-bold">Operating Systems:</td>
-                        <td>MS Windows, Linux</td>
-                    </tr>
-                    <tr>
-                        <td class="text-bold">Programming technologies:</td>
-                        <td>J2SE, Java Beans, WinAPI, .NET, ActiveX, COM</td>
-                    </tr>
-                    <tr>
-                        <td class="text-bold">RAD:</td>
-                        <td>1C Interprise, Eclipse, NetBeans, MS Visual Studio, IntelliJ IDEA, Borland Delphi, Borland CBuilder</td>
-                    </tr>
-                    <tr>
-                        <td class="text-bold">Modeling Methodology:</td>
-                        <td>UML</td>
-                    </tr>
-                    <tr>
-                        <td class="text-bold">Modeling Tools:</td>
-                        <td>Rational Rose, Visio, Enterprise Architect, BPWin, ErWin</td>
-                    </tr>
-                    <tr>
-                        <td class="text-bold">Scripting Languages:</td>
-                        <td>JavaScript, Bash</td>
-                    </tr>
-                    <tr>
-                        <td class="text-bold">CAD:</td>
-                        <td>AutoCAD</td>
-                    </tr>
-                    <tr>
-                        <td class="text-bold">Installation Packages:</td>
-                        <td>RPM, Windows Installer</td>
-                    </tr>
-                    <tr>
-                        <td class="text-bold">Automated Testing:</td>
-                        <td>JUnit</td>
-                    </tr>
-                    <tr>
-                        <td class="text-bold">Building Tools:</td>
-                        <td>Maven, Make</td>
-                    </tr>
-                    <tr>
-                        <td class="text-bold">Defect Tracking:</td>
-                        <td>JIRA, Bugzilla</td>
-                    </tr>   
-                    <tr>
-                        <td class="text-bold">Design:</td>
-                        <td>Corel Draw, Macromedia DreamWeaver, Adobe Photoshop</td>
-                    </tr>
-                </tbody>
-            </table>
+            <hr>            
+            <ul>
+                <li>
+                    <p class="text-bold">Programming Languages:</p>
+                    1C:Interprise platform language, Java, Assembler (x86), AutoLISP, C#, C/C++, LAD, FBD, STL, Object Pascal, Prolog, Visual Basic, SQL, T-SQL
+                </li>
+                <li>
+                    <p class="text-bold">Internet technologies:</p>
+                    HTML, Java Applets, Java Server Faces (JSF), Java Server Pages (JSP), PHP Hypertext Pre-processor, XML/XLS/XSLT
+                </li>
+                <li>
+                    <p class="text-bold">RDBMS</p>
+                    MS SQL Server, MySQL, Oracle, Oracle Lite, MS Access
+                </li>
+                <li>
+                    <p class="text-bold">Operating Systems:</p>
+                    MS Windows, Linux
+                </li>
+                <li>
+                    <p class="text-bold">Programming technologies:</p>
+                    J2SE, Java Beans, WinAPI, .NET, ActiveX, COM
+                </li>
+                <li>
+                    <p class="text-bold">RAD:</p>
+                    1C Interprise, Eclipse, NetBeans, MS Visual Studio, IntelliJ IDEA, Borland Delphi, Borland CBuilder
+                </li>
+                <li>
+                    <p class="text-bold">Modeling Methodology:</p>
+                    UML
+                </li>
+                <li>
+                    <p class="text-bold">Modeling Tools:</p>
+                    Rational Rose, Visio, Enterprise Architect, BPWin, ErWin
+                </li>
+                <li>
+                    <p class="text-bold">Scripting Languages:</p>
+                    JavaScript, Bash
+                    <pre><code>
+                            // JavaScript Code example:
+                            function calcDepth( arr ) {
+                                if(Array.isArray( arr )){                        
+                                    let maxDepth = 0;                        
+                                    for(let i = 0; i < arr.length; i++){                        
+                                        let depth = calcDepth( arr[i] );                        
+                                        if (depth > maxDepth) maxDepth = depth;                        
+                                    }                        
+                                    return 1 + maxDepth;
+                                } else return 0;
+                            }
+                    </code></pre>
+                </li>
+                <li>
+                    <p class="text-bold">CAD:</p>
+                    AutoCAD
+                </li>
+                <li>
+                    <p class="text-bold">Installation Packages:</p>
+                    RPM, Windows Installer
+                </li>
+                <li>
+                    <p class="text-bold">Automated Testing:</p>
+                    JUnit
+                </li>
+                <li>
+                    <p class="text-bold">Building Tools:</p>
+                    Maven, Make
+                </li>
+                <li>
+                    <p class="text-bold">Defect Tracking:</p>
+                    JIRA, Bugzilla
+                </li>
+                <li>
+                    <p class="text-bold">Design:</p>
+                    Corel Draw, Macromedia DreamWeaver, Adobe Photoshop
+                </li>
+                <li>
+                    <p class="text-bold">English: B2.</p>
+                </li>                
+            </ul>            
         </section>
 
         <section>
