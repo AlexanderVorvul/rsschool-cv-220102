@@ -1,0 +1,50 @@
+body {
+    font-family: Verdana, sans-serif;
+    color: black;  
+}
+
+.centered-text{
+  text-align: center;
+}
+
+footer{
+  text-align: center;
+}
+
+table{
+  align: center;
+}
+
+td {
+    padding: 10px;
+  }
+
+hr{
+    color: black;
+    size: 2px;
+}
+.centered-block {
+  width: 76%;
+  margin: 0 auto;
+}
+
+.section-header {
+    margin-top: 50px;
+    font-size: 24px;    
+    color: #8888e0;
+ }
+
+.subsection-header {
+    margin-top: 26px;
+    font-size: 18px;    
+    color: black;
+    font-weight: bold;
+}
+  
+.text-bold {
+    font-weight: bold;
+ }
+
+ .italic {
+    font-style: italic;
+ }
